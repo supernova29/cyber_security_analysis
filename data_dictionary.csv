@@ -1,0 +1,25 @@
+1,src_ipv4 (object), The source IPv4 address from which the attack originated.
+2,src_ipv6 (object), The source IPv6 address from which the attack originated.
+3,src_mac (object), The MAC address of the source device involved in the attack.
+4,src_port (int64), The source port number used in the attack.
+5,dest_port (int64), The destination port number targeted by the attack.
+6,duration (int64), The duration of the attack in seconds.
+7,os (object), The operating system of the source device.
+8,packet_size (int64)," The size of the packets sent during the attack, in bytes."
+9,tcp (object), Information on whether the TCP protocol was used in the attack.
+10,udp (object), Information on whether the UDP protocol was used in the attack.
+11,http (object), Information on whether the HTTP protocol was used in the attack.
+12,https (object), Information on whether the HTTPS protocol was used in the attack.
+13,ssh (object), Information on whether the SSH protocol was used in the attack.
+14,smtp (object), Information on whether the SMTP protocol was used in the attack.
+15,pop3 (object), Information on whether the POP3 protocol was used in the attack.
+16,ftp (object), Information on whether the FTP protocol was used in the attack.
+17,icmp (object), Information on whether the ICMP protocol was used in the attack.
+18,syn (object), Indicates if the SYN flag was set in the TCP packets.
+19,ack (object), Indicates if the ACK flag was set in the TCP packets.
+20,fin (object), Indicates if the FIN flag was set in the TCP packets.
+21,psh (object), Indicates if the PSH flag was set in the TCP packets.
+22,urg (object), Indicates if the URG flag was set in the TCP packets.
+23,ece (object), Indicates if the ECE flag was set in the TCP packets.
+24,cwr (object), Indicates if the CWR flag was set in the TCP packets.
+25,attack_type (object), The type or classification of the attack.
